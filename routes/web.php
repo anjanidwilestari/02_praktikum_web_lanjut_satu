@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return "Selamat Datang";
-// });
+ Route::get('/', function () {
+     return "Selamat Datang";
+ });
 // Route::get('/', function () {
 //     echo "Selamat Datang";
 // });
@@ -25,9 +25,9 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/articles/{id}', function ($id) {
 //     echo "Halaman Artikel dengan ID $id";
 // });
-Route::get('/articles/1', function ($id=1) {
-    echo "Halaman Artikel dengan ID $id";
-});
-Route::get('/articles/2', function ($id=2) {
-    echo "Halaman Artikel dengan ID $id";
-});
+// Route::get('/articles/1', function ($id=1) {
+//     echo "Halaman Artikel dengan ID $id";
+// });
+// Route::get('/articles/2', function ($id=2) {
+//     echo "Halaman Artikel dengan ID $id";
+// });
