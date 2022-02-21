@@ -19,12 +19,12 @@ use Illuminate\Support\Facades\Route;
 // Route::get('/', function () {
 //     echo "Selamat Datang";
 // });
- Route::get('/about', function () {
-     echo "2041720180 Anjani Dwilestari";
- });
-// Route::get('/articles/{id}', function ($id) {
-//     echo "Halaman Artikel dengan ID $id";
+// Route::get('/about', function () {
+//     echo "2041720180 Anjani Dwilestari";
 // });
+ Route::get('/articles/{id}', function ($id) {
+     echo "Halaman Artikel dengan ID $id";
+ });
 // Route::get('/articles/1', function ($id=1) {
 //     echo "Halaman Artikel dengan ID $id";
 // });
